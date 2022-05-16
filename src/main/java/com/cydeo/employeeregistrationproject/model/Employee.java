@@ -20,7 +20,7 @@ public class Employee {
 //    @NotEmpty       // Except null and , anything can be accepted
 //    @NotBlank       // Except null, empty String and only space, anything can be accepted
 
-    @NotBlank(message = "")
+    @NotBlank
     @Size(max = 12, min = 2)
     private String firstName;
 
